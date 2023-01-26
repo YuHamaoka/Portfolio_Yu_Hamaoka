@@ -53,6 +53,7 @@ h6 {
     color:#FCFCFA;
     word-wrap: break-word;
     line-height: 100px;
+    margin-bottom: 0;
 }
 
 p {
@@ -204,13 +205,13 @@ a.btn-border:hover {
 .skill svg{
     height: 26px;
     width: 26px;
-    fill: #282d3d;
+    fill: #666E84;
 }
 
 .skill svg:last-of-type {
     height: 26px;
     width: 26px;
-    fill: #afb5c7;
+    fill: #cdd2e0;
 }
 
 /* .skill svg:last-of-type(2) {
@@ -218,3 +219,27 @@ a.btn-border:hover {
     width: 26px;
     fill: blue;
 } */
+
+.col svg{
+    height: 40px;
+    width: 40px;
+    color: #FCFCFA;
+}
+
+.row align-items-start{
+    display: flex;
+    align-items: flex-start;
+}
+
+.Home_Work1 {
+    background-color: #666E84;
+    height: 1700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia_icon{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
