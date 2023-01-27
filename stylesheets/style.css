@@ -1,3 +1,7 @@
+/* img{
+    width: 100%
+} */
+
 body {
     background-image: #FCFCFA;
     background-attachment: fixed;
@@ -91,6 +95,17 @@ p.header-logo {
     margin-left: 50px;
 }
 
+.header-list a img {
+    display: none;
+    position: relative;
+}
+
+.header-list a:hover img {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+}
+
 .header-list li {
     color: #FCFCFA;
     list-style: none;
@@ -118,11 +133,20 @@ p.header-logo {
 .box{
     width: 32em;
     height: 35em;
-    border: solid 3px #FCFCFA;
     margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* .box a Frame_hover img {
+    display: none;
+    position: relative;
+}
+
+.box a Frame_hover: hover img{
+    display: block;
+    position: absolute; */
 }
 
 a.btn-border {
@@ -179,6 +203,16 @@ a.btn-border:hover {
     font-size: 24px;
     font-family: 'Delius', cursive;
 }
+
+.footer-list a img {
+    display: none;
+    position: relative;
+}
+
+.footer-list a:hover img {
+    display: block;
+    position: absolute;
+}
 /* ++++++Footer++++++++++ */
 
 /* ++++++About++++++++++ */
@@ -232,6 +266,7 @@ a.btn-border:hover {
 }
 
 .Home_Work1 {
+    margin-top: 100px;
     background-color: #666E84;
     height: 1700px;
     display: flex;
@@ -242,4 +277,8 @@ a.btn-border:hover {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
+}
+
+.text-center{
+    margin: 0;
 }
