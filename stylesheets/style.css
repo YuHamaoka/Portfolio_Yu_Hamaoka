@@ -67,6 +67,18 @@ p {
     word-wrap: break-word;
 }
 
+hr {
+    height: 5px;
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#ccc), to(transparent));
+    background-image: linear-gradient(to right, transparent, #ccc, transparent);
+}
+
+/* .Jem_image{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+} */
+
 /* ++++++Header++++++++++ */
 
 .header {
@@ -139,14 +151,17 @@ p.header-logo {
     align-items: center;
 }
 
-/* .box a Frame_hover img {
+
+.Frame_hover {
     display: none;
-    position: relative;
 }
 
-.box a Frame_hover: hover img{
+a:hover .Frame_default {
+    display: none;
+}
+
+a:hover .Frame_hover {
     display: block;
-    position: absolute; */
 }
 
 a.btn-border {
@@ -204,7 +219,7 @@ a.btn-border:hover {
     font-family: 'Delius', cursive;
 }
 
-.footer-list a img {
+.footer-list a img{
     display: none;
     position: relative;
 }
@@ -212,6 +227,7 @@ a.btn-border:hover {
 .footer-list a:hover img {
     display: block;
     position: absolute;
+    bottom: -22px;
 }
 /* ++++++Footer++++++++++ */
 
@@ -227,6 +243,10 @@ a.btn-border:hover {
 .container_name{
     margin-bottom: 20px;
     text-align: left;
+}
+
+.container_name h3{
+    font-size: 72px;
 }
 
 .skill span{
@@ -281,4 +301,37 @@ a.btn-border:hover {
 
 .text-center{
     margin: 0;
+}
+
+/* ++++++Contact++++++++++ */
+
+a.btn-border-contact {
+    border: 1px solid #666E84;
+    border-radius: 100px;
+    color: #666E84;
+    padding: 10px 30px;
+    padding: 10px 30px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 85px auto;
+}
+
+a.btn-border-contact:hover {
+    background: #666E84;
+}
+
+a.btn-border-contact:hover h3{
+    color: #FCFCFA;
+}
+
+.col-5{
+    text-align: left;
+}
+
+.col-5 h1{
+    text-align: center;
+    font-size: 72px;
+    color: #FCFCFA;
+    background-color: #666E84;
 }
