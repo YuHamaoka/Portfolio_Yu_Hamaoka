@@ -21,11 +21,11 @@
 
     <!-- +++++++++++++++++++++Header++++++++++++++++++++++ -->
     <div class="header">
-        <p class="header-logo"><a href="Index.html">Yu Hamaoka</a></p>
+        <p class="header-logo"><a href="index.html">Yu Hamaoka</a></p>
     
         <div class="header-list">
             <ul>
-                <li><a href="Index.html"><img src="images/hover/RedJem_icon.png">Home</a></li>
+                <li><a href="index.html"><img class="red_jem_home" src="images/hover/RedJem_icon.png">Home</li>
                 <li><a href="Work.html"><img src="images/hover/OrangeJem_icon.png">Work</a></li>
                 <li><a href="About.html"><img src="images/hover/GreenJem_icon.png">About</a></li>
                 <li><a href="Contact.html"><img src="images/hover/BlueJem_icon.png">Contact</a></li>
@@ -36,9 +36,10 @@
 
     <!-- +++++++++++++++++++++Main++++++++++++++++++++++ -->
 <div class="main">
-
-<!-- <div class="Jem_image"><img src="images/Jems.png"></div> -->
-
+    
+        <div class="jem_image1"><img src="images/Jem/jem_index1.png"></div>
+        <div class="jem_image2"><img src="images/Jem/jem_index2.png"></div>
+    
     <div class="Home_Hello_MyName">
         <div class="container">
             <div class="col-sm-8 p-3">
@@ -59,12 +60,18 @@
                 <div class="row">
                     <div class="col-sm-5 col-md-6">
                         <div class="box">
-                            <img src="images/Works_Frame.png">
+                            <a href="index.html">
+                                <img class="Frame_default" src="images/hover/Frame_Default.png">
+                                <img class="Frame_hover" src="images/hover/Frame_hover_Red.png">
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
                         <div class="box">
-                            <img src="images/Works_Frame.png">
+                            <a href="index.html">
+                                <img class="Frame_default" src="images/hover/Frame_Default.png">
+                                <img class="Frame_hover" src="images/hover/Frame_hover_Blue.png">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -72,12 +79,18 @@
                 <div class="row">
                     <div class="col-sm-6 col-md-5 col-lg-6">
                         <div class="box">
-                            <img src="images/Works_Frame.png">
+                            <a href="index.html">
+                                <img class="Frame_default" src="images/hover/Frame_Default.png">
+                                <img class="Frame_hover" src="images/hover/Frame_hover_Green.png">
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
                         <div class="box">
-                            <img src="images/Works_Frame.png">
+                            <a href="index.html">
+                                <img class="Frame_default" src="images/hover/Frame_Default.png">
+                                <img class="Frame_hover" src="images/hover/Frame_hover_Orange.png">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -90,34 +103,39 @@
         </div>
     </div>
 
-    <div class="Home_Contact">
-        <div class="container">
-        <h1>Contact Me</h1>
-        <h3><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-heart"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.76 2.76 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124c.146.277.329.556.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442c.22-.28.403-.56.55-.836L15 11.105V5.383l-3.002 1.801a2.76 2.76 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1H2Zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
-        </svg>
-        yuberuga1@gmail.com</h3>
-
-        <h3><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-fill"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-        </svg>
-        (+1)236-889-9069</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-5 col-lg-6">
+            <img class="jem_woman" src="images/Jem/Woman.png">
+        </div>
+        <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+            <div class="contact_me">
+            <h1>Contact Me</h1>
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-heart"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.76 2.76 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124c.146.277.329.556.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442c.22-.28.403-.56.55-.836L15 11.105V5.383l-3.002 1.801a2.76 2.76 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1H2Zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+            </svg>
+            yuberuga1@gmail.com</h3>
+    
+            <h3><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-fill"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            (+1)236-889-9069</h3>
             </div>
         </div>
+      </div>
     </div>
-</div>
+
     <!-- +++++++++++++++++++++Main++++++++++++++++++++++ -->
 
     <!-- +++++++++++++++++++++Footer++++++++++++++++++++++ -->
 <div class="footer">
-    <div class="footer-logo"><a href="Index.html">Yu Hamaoka</a></div>
+    <div class="footer-logo"><a href="index.html">Yu Hamaoka</a></div>
     <div class="footer-list">
         <ul>
-            <li><a href="Index.html"><img src="images/hover/RedJem_icon.png">Home</a></li>
+            <li><a href="index.html"><img src="images/hover/RedJem_icon.png">Home</a></li>
             <li><a href="Work.html"><img src="images/hover/OrangeJem_icon.png">Work</a></li>
             <li><a href="About.html"><img src="images/hover/GreenJem_icon.png">About</a></li>
             <li><a href="Contact.html"><img src="images/hover/BlueJem_icon.png">Contact</a></li>

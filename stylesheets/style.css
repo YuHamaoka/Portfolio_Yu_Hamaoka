@@ -19,19 +19,19 @@ a {
 }
 
 h1{
-    font-size: 96px;
+    font-size: 72px;
     font-family: 'Cormorant SC', serif;
     color: #666E84;
 }
 
 h2{
-    font-size: 96px;
+    font-size: 72px;
     font-family: 'Cormorant SC', serif;
     color: #FCFCFA;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 24px;
     font-family: 'Cormorant Infant', serif;
     color: #666E84;
     word-wrap: break-word;
@@ -39,20 +39,20 @@ h3 {
 }
 
 h4{
-    font-size: 24px;
+    font-size: 16px;
     font-family: 'Cormorant Infant', serif;
     color: #666E84;
     word-wrap: break-word;
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 16px;
     font-family: 'Cormorant SC', serif;
     margin: 0;
 }
 
 h6 {
-    font-size: 40px;
+    font-size: 24px;
     font-family: 'Cormorant Infant', serif;
     color:#FCFCFA;
     word-wrap: break-word;
@@ -61,7 +61,7 @@ h6 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 16px;
     font-family: 'Cormorant Infant', serif;
     color: #FCFCFA;
     word-wrap: break-word;
@@ -73,11 +73,30 @@ hr {
     background-image: linear-gradient(to right, transparent, #ccc, transparent);
 }
 
-/* .Jem_image{
+.jem_image1{
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     position: absolute;
-} */
+}
+
+.jem_image2{
+    margin-top: -80px;
+    display: flex;
+    position: absolute;
+}
+
+.jem_woman{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -190px;
+    margin-left: 90px;
+}
+
+.contact_me{
+    text-align: left;
+}
 
 /* ++++++Header++++++++++ */
 
@@ -107,7 +126,7 @@ p.header-logo {
     margin-left: 50px;
 }
 
-.header-list a img {
+.header-list a img{
     display: none;
     position: relative;
 }
@@ -132,12 +151,12 @@ p.header-logo {
 
 .main {
     text-align: left;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .Home_Work{
     background-color: #666E84;
-    height: 2000px;
+    height: 1800px;
     display: flex;
     justify-content: space-around;
 }
@@ -219,15 +238,19 @@ a.btn-border:hover {
     font-family: 'Delius', cursive;
 }
 
+.footer-list a:hover {
+    display: block;
+    position: relative;
+}
+
 .footer-list a img{
     display: none;
-    position: relative;
 }
 
 .footer-list a:hover img {
     display: block;
     position: absolute;
-    bottom: -22px;
+    bottom: -19px;
 }
 /* ++++++Footer++++++++++ */
 
@@ -303,10 +326,44 @@ a.btn-border:hover {
     margin: 0;
 }
 
+.jem_work1{
+    width: 100%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: -1;
+}
+
+.jem_work2{
+    margin-top: 60px;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+.jem_about1,.jem_about2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.jem_about1{
+    margin-top: 200px;
+}
+
+.jem_about2{
+    margin-top: 2100px;
+    z-index: -1;
+}
+
 /* ++++++Contact++++++++++ */
 
 a.btn-border-contact {
     border: 1px solid #666E84;
+    background-color: #FCFCFA;
+    opacity: 0.8;
     border-radius: 100px;
     color: #666E84;
     padding: 10px 30px;
@@ -334,4 +391,14 @@ a.btn-border-contact:hover h3{
     font-size: 72px;
     color: #FCFCFA;
     background-color: #666E84;
+}
+
+.jem_contact1{
+    margin-top: 190px;
+    position: absolute;
+    z-index: -1;
+}
+
+.main_contact{
+    margin-top: 140px;
 }
